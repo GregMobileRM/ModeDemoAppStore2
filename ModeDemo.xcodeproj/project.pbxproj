@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544D5B611DAC30380015759E /* PROD-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544D5B601DAC30380015759E /* PROD-83.5@2x.png */; };
 		5473F79A1C6144D8005560A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473F7991C6144D8005560A0 /* AppDelegate.swift */; };
 		5473F79C1C6144D8005560A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473F79B1C6144D8005560A0 /* ViewController.swift */; };
 		5473F79F1C6144D8005560A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5473F79D1C6144D8005560A0 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		544D5B601DAC30380015759E /* PROD-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROD-83.5@2x.png"; sourceTree = "<group>"; };
 		5473F7961C6144D8005560A0 /* ModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5473F7991C6144D8005560A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5473F79B1C6144D8005560A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		5473F7981C6144D8005560A0 /* ModeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				544D5B601DAC30380015759E /* PROD-83.5@2x.png */,
 				5480F4751C62A46900DBC759 /* PROD-76@2x.png */,
 				5480F4431C62A45B00DBC759 /* PROD-76.png */,
 				5480F4441C62A45B00DBC759 /* PROD-40.png */,
@@ -243,6 +246,7 @@
 				5480F4621C62A45B00DBC759 /* PROD-60@3.png in Resources */,
 				5473F79F1C6144D8005560A0 /* Main.storyboard in Resources */,
 				5480F46B1C62A45B00DBC759 /* PROD-40@2.png in Resources */,
+				544D5B611DAC30380015759E /* PROD-83.5@2x.png in Resources */,
 				5480F4611C62A45B00DBC759 /* TEST-60@3.png in Resources */,
 				5480F46F1C62A45B00DBC759 /* TEST-29@3.png in Resources */,
 				5480F45D1C62A45B00DBC759 /* PROD-40.png in Resources */,
