@@ -85,6 +85,7 @@
 		5480F45A1C62A45B00DBC759 /* PROD-29@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROD-29@2.png"; sourceTree = "<group>"; };
 		5480F45B1C62A45B00DBC759 /* PROD-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROD-29.png"; sourceTree = "<group>"; };
 		5480F4751C62A46900DBC759 /* PROD-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROD-76@2x.png"; sourceTree = "<group>"; };
+		54BBA6F71DC7DA4000BA6229 /* ModeDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ModeDemo.entitlements; sourceTree = "<group>"; };
 		54D889DF1C62CF0A00628A59 /* Icon-PROD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-PROD.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +119,7 @@
 		5473F7981C6144D8005560A0 /* ModeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				54BBA6F71DC7DA4000BA6229 /* ModeDemo.entitlements */,
 				544D5B621DAC33790015759E /* ModeDemoIcon-PROD-83.5@2x.png */,
 				5480F4751C62A46900DBC759 /* PROD-76@2x.png */,
 				5480F4431C62A45B00DBC759 /* PROD-76.png */,
@@ -192,8 +194,14 @@
 				TargetAttributes = {
 					5473F7951C6144D8005560A0 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 557EJSX593;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -337,13 +345,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTEST;
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
+				CODE_SIGN_ENTITLEMENTS = ModeDemo/ModeDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 557EJSX593;
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = icecream;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Local";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -395,13 +404,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
+				CODE_SIGN_ENTITLEMENTS = ModeDemo/ModeDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 557EJSX593;
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = icecream;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Local";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -500,12 +510,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
+				CODE_SIGN_ENTITLEMENTS = ModeDemo/ModeDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 557EJSX593;
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = icecream;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Local";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -517,13 +528,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
+				CODE_SIGN_ENTITLEMENTS = ModeDemo/ModeDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 557EJSX593;
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = icecream;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Local";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
