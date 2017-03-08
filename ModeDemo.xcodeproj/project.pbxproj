@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544078361DD1359800C59F8F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544078351DD1359800C59F8F /* Alamofire.framework */; };
+		544078381DD1359C00C59F8F /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544078371DD1359C00C59F8F /* KeychainAccess.framework */; };
+		5440783A1DD1359F00C59F8F /* QorumLogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544078391DD1359F00C59F8F /* QorumLogs.framework */; };
 		544D5B631DAC33790015759E /* ModeDemoIcon-PROD-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544D5B621DAC33790015759E /* ModeDemoIcon-PROD-83.5@2x.png */; };
 		5473F79A1C6144D8005560A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473F7991C6144D8005560A0 /* AppDelegate.swift */; };
 		5473F79C1C6144D8005560A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473F79B1C6144D8005560A0 /* ViewController.swift */; };
@@ -47,6 +50,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		544078351DD1359800C59F8F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		544078371DD1359C00C59F8F /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
+		544078391DD1359F00C59F8F /* QorumLogs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QorumLogs.framework; path = Carthage/Build/iOS/QorumLogs.framework; sourceTree = "<group>"; };
 		544D5B621DAC33790015759E /* ModeDemoIcon-PROD-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ModeDemoIcon-PROD-83.5@2x.png"; sourceTree = "<group>"; };
 		5473F7961C6144D8005560A0 /* ModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5473F7991C6144D8005560A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,17 +100,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544078361DD1359800C59F8F /* Alamofire.framework in Frameworks */,
+				544078381DD1359C00C59F8F /* KeychainAccess.framework in Frameworks */,
+				5440783A1DD1359F00C59F8F /* QorumLogs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		544078341DD1359700C59F8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				544078391DD1359F00C59F8F /* QorumLogs.framework */,
+				544078371DD1359C00C59F8F /* KeychainAccess.framework */,
+				544078351DD1359800C59F8F /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5473F78D1C6144D8005560A0 = {
 			isa = PBXGroup;
 			children = (
 				5473F7981C6144D8005560A0 /* ModeDemo */,
 				5473F7971C6144D8005560A0 /* Products */,
+				544078341DD1359700C59F8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,6 +192,7 @@
 				5473F7921C6144D8005560A0 /* Sources */,
 				5473F7931C6144D8005560A0 /* Frameworks */,
 				5473F7941C6144D8005560A0 /* Resources */,
+				5440783B1DD1362300C59F8F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -199,7 +220,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -267,6 +288,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5440783B1DD1362300C59F8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5473F7921C6144D8005560A0 /* Sources */ = {
@@ -345,14 +382,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTEST;
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
-				CODE_SIGN_ENTITLEMENTS = ModeDemo/ModeDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				DEVELOPMENT_TEAM = 557EJSX593;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Local";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -404,14 +444,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
-				CODE_SIGN_ENTITLEMENTS = ModeDemo/ModeDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				DEVELOPMENT_TEAM = 557EJSX593;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Local";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -510,13 +553,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
-				CODE_SIGN_ENTITLEMENTS = ModeDemo/ModeDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 557EJSX593;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Local";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -528,14 +574,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
-				CODE_SIGN_ENTITLEMENTS = ModeDemo/ModeDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				DEVELOPMENT_TEAM = 557EJSX593;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Local";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -1,0 +1,10 @@
+framework module QorumLogs {
+  umbrella header "QorumLogs.h"
+
+  export *
+  module * { export * }
+}
+
+module QorumLogs.Swift {
+    header "QorumLogs-Swift.h"
+}
