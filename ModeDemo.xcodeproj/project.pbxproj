@@ -215,9 +215,9 @@
 				TargetAttributes = {
 					5473F7951C6144D8005560A0 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 557EJSX593;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = KWAK8X35P5;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 0;
@@ -383,20 +383,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTEST;
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
-				DEVELOPMENT_TEAM = 557EJSX593;
+				DEVELOPMENT_TEAM = KWAK8X35P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsanto.releasemanagement.ModeDemoAppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 2.3;
+				PROVISIONING_PROFILE = "8444611a-c04b-4515-ac6e-f784157fa002";
+				PROVISIONING_PROFILE_SPECIFIER = "App Store - Mode Demo";
+				SWIFT_VERSION = 3.0;
 			};
 			name = "Release-Test";
 		};
@@ -445,20 +445,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
-				DEVELOPMENT_TEAM = 557EJSX593;
+				DEVELOPMENT_TEAM = KWAK8X35P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsanto.releasemanagement.ModeDemoAppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 2.3;
+				PROVISIONING_PROFILE = "37faa5f8-75d7-42a5-8d4e-90e983133c35";
+				PROVISIONING_PROFILE_SPECIFIER = "App Store - Mode Demo";
+				SWIFT_VERSION = 3.0;
 			};
 			name = "Release-PS";
 		};
@@ -554,19 +554,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 557EJSX593;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
+				DEVELOPMENT_TEAM = KWAK8X35P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsanto.releasemanagement.ModeDemoAppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 2.3;
+				PROVISIONING_PROFILE = "37faa5f8-75d7-42a5-8d4e-90e983133c35";
+				PROVISIONING_PROFILE_SPECIFIER = "App Store - Mode Demo";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -575,20 +575,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Monsanto Company (KWAK8X35P5)";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
-				DEVELOPMENT_TEAM = 557EJSX593;
+				DEVELOPMENT_TEAM = KWAK8X35P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ModeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monsanto.releasemanagement.ModeDemo-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monsanto.releasemanagement.ModeDemoAppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 2.3;
+				PROVISIONING_PROFILE = "8444611a-c04b-4515-ac6e-f784157fa002";
+				PROVISIONING_PROFILE_SPECIFIER = "App Store - Mode Demo";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
